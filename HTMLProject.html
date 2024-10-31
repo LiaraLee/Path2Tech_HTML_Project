@@ -4,90 +4,78 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML Project</title>
-    <style>
-        h1 {
-            text-align: center;
-        }
-    </style>
 </head>
-
 <body>
-  <nav style="text-align: center;">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="https://www.npower.org" target="_blank">Contact</a>
+  <nav>
+    <a href="https://www.usa.gov/voter-registration">Home</a>
+    <a href="https://www.thetrevorproject.org/">About</a>
+    <a href="https://humanappealusa.org/donate/projects/child-welfare-orphans/palestine-orphan-children-fund?gad_source=1&gclid=CjwKCAjwg-24BhB_EiwA1ZOx8orW4iY8cnOgrd5yQ9if4LeomLEYCXxfAt5J-UugxfWlKYKD-guZ-RoCPIIQAvD_BwE" target="_blank">Contact</a>
   </nav>
 
-<main>
-  <h1>It Team Members</h1>
+  <main>
+    <h1>IT TEAM MEMBERS</h1>
+    <h4><em>Add New Member</em></h4>
 
-  <div style="text-align: center;">
-
-    <h4>Add New Member</h4>
-
-  <label for="text">
-    <input type="text" placeholder="Jane"name="Jane" id="text"> 
-  </label>
-
+    <form>
+      <div>
+        <label for="First_Name">First</label>
+        <br>
+        <input type="text" placeholder="Jane" name="First_Name" id="First_Name"> 
+      </div>
 <br>
+      <div>
+        <label for="Last_Name">Last</label>
+        <br>
+        <input type="text" placeholder="Doe" name="Last_Name" id="Last_Name">
+      </div>
 <br>
+      <div>
+        <label for="Role">Role</label>
+        <br>
+        <input type="text" placeholder="Developer" name="Role" id="Role">
+      </div>
+<br>
+      <div>
+        <label for="Email">Email</label>
+        <br>
+        <input type="Email" placeholder="email@domain.com" name="Email" id="Email">
+      </div>
+<br>
+      <div id="buttons">
+        <button type="submit">Add Member</button>
+      </div>
+    </form>
 
-  <label for="text">
-    <input type="text" placeholder="Doe" name="Doe" id="text">
-  </label>
+    <h4><em>Team Members</em></h4>
+    <table border="2">
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Role</th>
+        <th>Email</th>
+      </tr>
+      <tr>
+        <td>Janice</td>
+        <td>Aine</td>
+        <td>Software Engineer</td>
+        <td>janiceaine6@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Laura</td>
+        <td>Mbogo</td>
+        <td>Software Engineer</td>
+        <td>lauraway@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Liara</td>
+        <td>Lee</td>
+        <td>Game Developer</td>
+        <td>liara.lee.tite@gmail.com</td>
+      </tr>
+    </table>
 
-  <br>
-  <br>
+    <p>NPower&copy;</p>
 
-  <label for="text">
-    <input type="text" placeholder="Developer" name="Developer" id="text">
-  </label>
-
-  <br>
-  <br>
-
-  <label for="text">
-    <input type="text" placeholder="emai@domain.com" name="emai@domain.com" id="text">
-  </label>
-
-  <br>
-  <br>
-
-  <form>
-  <div id="buttons">
-    <button type="button">Add Member</button>
-  </div>
-  <form>
-
-<h4>Team Members</h4>
-<table border="2" style="margin: auto;">
-    <tr>
-      <th>First Name</th>
-      <th>Last Name</th>
-      <th>Role</th>
-      <th>Email</th>
-    </tr>
-    <tr>
-      <td>Janice</td>
-      <td>Aine</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Laura</td>
-      <td>Wayxo</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Liara</td>
-      <td>Lee</td>
-      <td>Game Developer</td>
-      <td>liara.lee.tite@gmail.com</td>
-    </tr>
-  </table>
-</div>
-
-</main>
+  </main>
 </body>
 </html>
