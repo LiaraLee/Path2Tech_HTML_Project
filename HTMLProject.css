@@ -5,48 +5,56 @@ body {
     background-repeat: no-repeat;
 }
 
-h1 {
+h1{
     font-family: "Danfo", serif; 
-    color: darkgreen; 
+    color: rgb(2, 60, 2); 
     text-align: center;
+    font-size: 7.5em;
+}
+
+h3{
+    font-family: "Danfo", serif; 
+    color: rgb(2, 60, 2); 
+    text-align: center;
+    font-size: 3.5em;
 }
 
 h4 {
     color: sienna; 
-    text-align: center; 
-}
-
-h5 {
-    color:darkgreen; 
-    text-align: center; 
+    text-align: center; background-color:beige; border-radius: 20px ; font-size: 2.5em;
 }
 
 .intro {
-    color: darkolivegreen; 
+    color: rgb(2, 60, 2); 
     text-align: center; 
 }
 
 p {
-    color: darkgreen; 
+    color: rgb(2, 60, 2); 
     text-align: center;
 }
 
-#First_Name, #Last_Name, #Role, #Email {
-    color: olive; 
+#First_Name, #Last_Name, #Pronouns, #Role, #Email { 
     text-align: center;
+    color:maroon
 }
 
 #table {
-    background-color:maroon ; 
+    background-color:chocolate;
     margin: 0 auto; color:beige
 }
 
 #navigation {
-    text-align: center;
+    text-align: center;  font-size: 1.5em
 }
 
 button {
     background-color:maroon; 
     display: block;
     margin: 0 auto;
+}
+form {
+    background-color:chocolate;
+    margin: 0 auto;
+    width: 30%; border-radius: 20px;
 }
