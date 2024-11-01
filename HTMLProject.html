@@ -4,51 +4,60 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML Project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Danfo&display=swap" rel="stylesheet">
 </head>
 <body>
-  <nav>
+  <nav id="navigation" >
     <a href="https://www.usa.gov/voter-registration">Home</a>
     <a href="https://www.thetrevorproject.org/">About</a>
     <a href="https://humanappealusa.org/donate/projects/child-welfare-orphans/palestine-orphan-children-fund?gad_source=1&gclid=CjwKCAjwg-24BhB_EiwA1ZOx8orW4iY8cnOgrd5yQ9if4LeomLEYCXxfAt5J-UugxfWlKYKD-guZ-RoCPIIQAvD_BwE" target="_blank">Contact</a>
+    <link rel="stylesheet" href="HTMLProject.css">
   </nav>
 
   <main>
-    <h1>IT TEAM MEMBERS</h1>
-    <h4><em>Add New Member</em></h4>
+    <h1>Study Room #2 Members</h1>
+
+    <h4><em>Everyone who applies will be accepted and welcome!</em></h4>
+
+    <h4><em>Join Our Team!</em></h4>
+
+    <h5><em>Add New Member</em></h5>
 
     <form>
-      <div>
+      <div id="First_Name">
         <label for="First_Name">First</label>
         <br>
         <input type="text" placeholder="Jane" name="First_Name" id="First_Name"> 
       </div>
 <br>
-      <div>
+      <div id="Last_Name">
         <label for="Last_Name">Last</label>
         <br>
         <input type="text" placeholder="Doe" name="Last_Name" id="Last_Name">
       </div>
 <br>
-      <div>
+      <div id="Role">
         <label for="Role">Role</label>
         <br>
         <input type="text" placeholder="Developer" name="Role" id="Role">
       </div>
 <br>
-      <div>
+      <div id="Email">
         <label for="Email">Email</label>
         <br>
         <input type="Email" placeholder="email@domain.com" name="Email" id="Email">
       </div>
 <br>
       <div id="buttons">
-        <button type="submit">Add Member</button>
+        <button type="submit" class="intro">Add Member</button>
       </div>
     </form>
 
-    <h4><em>Team Members</em></h4>
-    <table border="2">
-      <tr>
+    <h5><em>Team Members</em></h5>
+    <table id="table" border="2">
+      <tr class="intro">
         <th>First Name</th>
         <th>Last Name</th>
         <th>Role</th>

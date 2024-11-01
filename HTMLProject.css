@@ -1,0 +1,52 @@
+body {
+    background-image: url(assets/00125_retro3_main_800x.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: "Danfo", serif; 
+    color: darkgreen; 
+    text-align: center;
+}
+
+h4 {
+    color: sienna; 
+    text-align: center; 
+}
+
+h5 {
+    color:darkgreen; 
+    text-align: center; 
+}
+
+.intro {
+    color: darkolivegreen; 
+    text-align: center; 
+}
+
+p {
+    color: darkgreen; 
+    text-align: center;
+}
+
+#First_Name, #Last_Name, #Role, #Email {
+    color: olive; 
+    text-align: center;
+}
+
+#table {
+    background-color:maroon ; 
+    margin: 0 auto; color:beige
+}
+
+#navigation {
+    text-align: center;
+}
+
+button {
+    background-color:maroon; 
+    display: block;
+    margin: 0 auto;
+}
