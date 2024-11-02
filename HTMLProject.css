@@ -5,56 +5,57 @@ body {
     background-repeat: no-repeat;
 }
 
+#navigation {
+    text-align: center;  font-size: 2.0em;
+}
+
 h1{
     font-family: "Danfo", serif; 
     color: rgb(2, 60, 2); 
     text-align: center;
-    font-size: 7.5em;
+    font-size: 10.0em;
+}
+
+h4 {
+    color:darkgoldenrod; 
+    text-align: center; background-color:beige; border-radius: 20px ; font-size: 2.5em;
 }
 
 h3{
     font-family: "Danfo", serif; 
     color: rgb(2, 60, 2); 
     text-align: center;
-    font-size: 3.5em;
+    font-size: 5.0em;
 }
 
-h4 {
-    color: sienna; 
-    text-align: center; background-color:beige; border-radius: 20px ; font-size: 2.5em;
-}
-
-.intro {
-    color: rgb(2, 60, 2); 
-    text-align: center; 
-}
-
-p {
-    color: rgb(2, 60, 2); 
-    text-align: center;
+form {
+    background-color:chocolate;
+    margin: 0 auto;
+    width: 30%; border-radius: 20px; font-size: 1.5em
 }
 
 #First_Name, #Last_Name, #Pronouns, #Role, #Email { 
     text-align: center;
-    color:maroon
+    color:maroon; font-size: 1.0em
 }
 
 #table {
     background-color:chocolate;
-    margin: 0 auto; color:beige
+    margin: 0 auto; color:beige; font-size: 2.0em;border-color:darkgoldenrod
 }
 
-#navigation {
-    text-align: center;  font-size: 1.5em
+.intro {
+    color: maroon; 
+    text-align: center; font-size: 1.5em;
 }
 
 button {
     background-color:maroon; 
     display: block;
-    margin: 0 auto;
+    margin: 0 auto; color:beige; font-size: 1.0em; border-radius: 20px; text-align: center;
 }
-form {
-    background-color:chocolate;
-    margin: 0 auto;
-    width: 30%; border-radius: 20px;
+
+p {
+    color: rgb(2, 60, 2); 
+    text-align: center; font-size: 1.5em
 }
