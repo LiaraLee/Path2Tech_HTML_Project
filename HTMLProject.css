@@ -1,37 +1,67 @@
+html {
+    font-size: 16px;
+}
+
+@media (max-width: 600px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 601px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1001px) {
+    html {
+        font-size: 18px;
+    }
+}
+
 body {
     background-image: url(assets/00125_retro3_main_800x.webp);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;   text-shadow: 
+        -1px -1px 0 black,  
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black;
 }
 
 #navigation {
     text-align: center;  font-size: 2.0em;
 }
 
-h1{
+li {
+    list-style-type: none;
+}
+
+h1 {
     font-family: "Danfo", serif; 
     color: rgb(2, 60, 2); 
     text-align: center;
-    font-size: 10.0em;
+    font-size: 10.0rem;
 }
 
 h4 {
     color:darkgoldenrod; 
-    text-align: center; background-color:beige; border-radius: 20px ; font-size: 2.5em;
+    text-align: center; background-color:beige; border-radius: 20px ; font-size: 3.0rem;
 }
 
-h3{
+h3 {
     font-family: "Danfo", serif; 
     color: rgb(2, 60, 2); 
     text-align: center;
-    font-size: 5.0em;
+    font-size: 5.0rem;
 }
 
 form {
     background-color:chocolate;
     margin: 0 auto;
-    width: 30%; border-radius: 20px; font-size: 1.5em
+    width: 50%; border-radius: 20px; font-size: 2.0em
 }
 
 #First_Name, #Last_Name, #Pronouns, #Role, #Email { 
@@ -41,7 +71,7 @@ form {
 
 #table {
     background-color:chocolate;
-    margin: 0 auto; color:beige; font-size: 2.0em;border-color:darkgoldenrod
+    margin: 0 auto; color:beige; font-size: 2.0em;border-color:rgb(49, 2, 2)
 }
 
 .intro {
@@ -57,5 +87,5 @@ button {
 
 p {
     color: rgb(2, 60, 2); 
-    text-align: center; font-size: 1.5em
+    text-align: center; font-size: 1.5rem
 }
